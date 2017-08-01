@@ -1,5 +1,5 @@
 /*
-react-datetime v2.8.11
+react-datetime v2.9.0
 https://github.com/YouCanBookMe/react-datetime
 MIT: https://github.com/YouCanBookMe/react-datetime/raw/master/LICENSE
 */
@@ -488,7 +488,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 			return React.createElement('div', {className: className}, children.concat(
 				React.createElement('div',
-					{ key: 'dt', className: 'rdtPicker' },
+					{ key: 'dt', className: 'rdtPicker popover popover-bottom' },
 					React.createElement( CalendarContainer, {view: this.state.currentView, viewProps: this.getComponentProps(), onClickOutside: this.handleClickOutside })
 				)
 			));
